@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモ</title>
+    <style>
+        body {
+            background-image: url('');
+            background-size: cover; /* 画像が画面全体をカバーするように */
+            background-repeat: no-repeat; /* 画像を繰り返さない */
+            background-position: center; /* 画像を中央に配置 */
+        }
+        .image {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            transition: transform 0.5s linear;
+        }
+        .start-button {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, 500%);
+            font-size: 24px;
+            padding: 20px;
+            background: lightgreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <script src="script.js" defer></script> <!-- JSファイルをリンク -->
+    <script src="style.css" defer></script> <!-- CSSファイルをリンク -->
+</head>
+<body>
+
+    <button class="start-button" onclick="startMadness()">個人情報メモ</button>
+
+</body>
+</html>

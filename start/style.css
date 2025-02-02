@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    width: 100vw;  /* 画面幅いっぱい */
+    height: 100vh; /* 画面高さいっぱい */
+    display: flex;
+    justify-content: center;  /* 水平方向の中央 */
+    align-items: center;      /* 垂直方向の中央 */
+}
+
+.start-button {
+    position: fixed; /* 固定配置で画面のど真ん中に */
+    font-size: 24px;
+    padding: 20px;
+    background: lightgreen;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
